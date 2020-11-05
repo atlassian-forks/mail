@@ -458,7 +458,7 @@ class Protocol {
 		}
 
 		if (ir != null) {
-			resp = simpleCommand(command + (ir.length() == 0 ? "=" : ir));
+			resp = simpleCommand(command + " " + (ir.length() == 0 ? "=" : ir));
 		} else {
 			resp = simpleCommand(command);
 		}
