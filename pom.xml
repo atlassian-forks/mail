@@ -582,15 +582,22 @@
 		    </excludes>
 		</configuration>
 	    </plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-gpg-plugin</artifactId>
+			<configuration>
+				<skip>true</skip>
+			</configuration>
+		</plugin>
 
-<!-- not used
 	    <plugin>
 		<artifactId>maven-release-plugin</artifactId>
-		<configuration>
-		    <arguments>-P deploy</arguments>
-		</configuration>
+			<configuration>
+				<autoVersionSubmodules>true</autoVersionSubmodules>
+				<pushChanges>false</pushChanges>
+				<arguments>-Dmaven.test.skip=true -DskipTests </arguments>
+			</configuration>
 	    </plugin>
--->
 	</plugins>
 
 	<pluginManagement>
