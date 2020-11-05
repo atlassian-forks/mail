@@ -90,7 +90,7 @@
 				<artifactItem>
 				    <groupId>com.sun.mail</groupId>
 				    <artifactId>jakarta.mail</artifactId>
-				    <version>${mail.version}</version>
+				    <version>${project.version}</version>
 				    <classifier>sources</classifier>
 				    <outputDirectory>
 					${project.build.directory}/sources
@@ -105,7 +105,7 @@
 			<artifactItem>
 			    <groupId>com.sun.mail</groupId>
 			    <artifactId>jakarta.mail</artifactId>
-			    <version>${mail.version}</version>
+			    <version>${project.version}</version>
 			</artifactItem>
 		    </artifactItems>
 		    <outputDirectory>
@@ -138,7 +138,7 @@
 	<dependency>
 	    <groupId>com.sun.mail</groupId>
 	    <artifactId>android-activation</artifactId>
-	    <version>${mail.version}</version>
+	    <version>${project.version}</version>
 	</dependency>
 	<dependency>
 	    <groupId>junit</groupId>
