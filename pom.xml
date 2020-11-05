@@ -17,7 +17,7 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0        http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
 	<groupId>org.eclipse.ee4j</groupId>
 	<artifactId>project</artifactId>
@@ -27,7 +27,7 @@
     <groupId>com.sun.mail</groupId>
     <artifactId>all</artifactId>
     <packaging>pom</packaging>
-    <version>1.6.5-atlassian-2</version>
+    <version>1.6.5-atlassian-3-SNAPSHOT</version>
     <name>Jakarta Mail API distribution</name>
     <description>${project.name}</description>
     <url>http://eclipse-ee4j.github.io/mail</url>
@@ -67,7 +67,7 @@
     </organization>
 
     <properties>
-	<mail.version>1.6.5-atlassian-2</mail.version>
+	<mail.version>1.6.5-atlassian-3-SNAPSHOT</mail.version>
 	<mail.spec.version>1.6</mail.spec.version>
 	<activation.version>1.2.1</activation.version>
 	<!-- defaults that are overridden in mail module -->
