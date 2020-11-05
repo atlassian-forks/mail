@@ -17,10 +17,7 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-			    http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0        http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
 	<groupId>org.eclipse.ee4j</groupId>
 	<artifactId>project</artifactId>
@@ -30,7 +27,7 @@
     <groupId>com.sun.mail</groupId>
     <artifactId>all</artifactId>
     <packaging>pom</packaging>
-    <version>1.6.5-atlassian-2-SNAPSHOT</version>
+    <version>1.6.5-atlassian-2</version>
     <name>Jakarta Mail API distribution</name>
     <description>${project.name}</description>
     <url>http://eclipse-ee4j.github.io/mail</url>
@@ -39,7 +36,7 @@
 	<connection>scm:git:ssh://git@github.com/eclipse-ee4j/mail.git</connection>
 	<developerConnection>scm:git:ssh://git@github.com/eclipse-ee4j/mail.git</developerConnection>
 	<url>https://github.com/eclipse-ee4j/mail</url>
-    </scm>
+  </scm>
 
     <issueManagement>
 	<system>GitHub</system>
@@ -70,7 +67,7 @@
     </organization>
 
     <properties>
-	<mail.version>1.6.5-atlassian-2-SNAPSHOT</mail.version>
+	<mail.version>1.6.5-atlassian-2</mail.version>
 	<mail.spec.version>1.6</mail.spec.version>
 	<activation.version>1.2.1</activation.version>
 	<!-- defaults that are overridden in mail module -->
@@ -98,7 +95,7 @@
 	<mail.packages.private>
 	    com.sun.mail.*
 	</mail.packages.private>
-	<mail.probeFile/>
+	<mail.probeFile />
 	<!-- for the osgiversion-maven-plugin -->
 	<hk2.plugin.version>2.0.0</hk2.plugin.version>
 	<javac.path>/opt/jdk1.7/bin/javac</javac.path>
@@ -112,7 +109,7 @@
 	<findbugs.skip>
 	    true
 	</findbugs.skip>
-	<findbugs.exclude/>
+	<findbugs.exclude />
         <copyright-plugin.version>1.46</copyright-plugin.version>
     </properties>
 
