@@ -25,7 +25,7 @@
 	<groupId>org.eclipse.ee4j</groupId>
 	<artifactId>project</artifactId>
 	<version>1.0.6</version>
-	<relativePath></relativePath>
+	<relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sun.mail</groupId>
@@ -768,7 +768,7 @@
 	    <dependency>
 		<groupId>jakarta.servlet</groupId>
 		<artifactId>jakarta.servlet-api</artifactId>
-		<version>5.0.0-M1</version>
+		<version>5.0.0</version>
 	    </dependency>
 	    <dependency>
 		<groupId>jakarta.servlet.jsp</groupId>
